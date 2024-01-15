@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route("/")
 def home(): 
-  return "<html style='background: #000; color:#fff'><br><h2>⚒ AnimeTV-V3_API ⚒ </h2></html>"
+  return "<html style='background: #000; color:#fff'><br><h2>⚒ AnimXer ⚒ </h2></html>"
 
 @app.route("/search/<site>")
 def search(site):
